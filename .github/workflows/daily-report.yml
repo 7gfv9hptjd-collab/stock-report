@@ -28,7 +28,7 @@ jobs:
           ALPACA_KEY: ${{ secrets.ALPACA_KEY }}
           ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
 
       - run: |
           git config user.name "stock-report-bot"
