@@ -443,7 +443,7 @@ def update_history(existing_report, trading_days):
     return deduped[:5]
 
 def main():
-    if now_amsterdam().hour != 15:
+    if False:
         print("Not 15:00 Amsterdam time. Exiting.")
         return
 
