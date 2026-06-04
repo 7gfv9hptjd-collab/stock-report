@@ -7,11 +7,11 @@
     {
       "side": "upside",
       "rank": 1,
-      "ticker": "SMCI",
-      "name": "SMCI",
+      "ticker": "AVGO",
+      "name": "AVGO",
       "cap": "Mid/Large",
-      "premarketMove": "-12.40%",
-      "probabilityScore": 84,
+      "premarketMove": "-15.33%",
+      "probabilityScore": 83,
       "conviction": "High",
       "catalyst": "Selected from broad premarket/news/volume screen.",
       "analyst": "Analyst signal unavailable; news proxy used.",
@@ -24,11 +24,11 @@
     {
       "side": "upside",
       "rank": 2,
-      "ticker": "NOW",
-      "name": "NOW",
+      "ticker": "PARA",
+      "name": "PARA",
       "cap": "Mid/Large",
-      "premarketMove": "-7.62%",
-      "probabilityScore": 84,
+      "premarketMove": "-5.87%",
+      "probabilityScore": 83,
       "conviction": "High",
       "catalyst": "Selected from broad premarket/news/volume screen.",
       "analyst": "Analyst signal unavailable; news proxy used.",
@@ -41,11 +41,11 @@
     {
       "side": "upside",
       "rank": 3,
-      "ticker": "AVGO",
-      "name": "AVGO",
+      "ticker": "MU",
+      "name": "MU",
       "cap": "Mid/Large",
-      "premarketMove": "-14.72%",
-      "probabilityScore": 84,
+      "premarketMove": "-8.84%",
+      "probabilityScore": 82,
       "conviction": "High",
       "catalyst": "Selected from broad premarket/news/volume screen.",
       "analyst": "Analyst signal unavailable; news proxy used.",
@@ -58,11 +58,11 @@
     {
       "side": "upside",
       "rank": 4,
-      "ticker": "SOFI",
-      "name": "SOFI",
+      "ticker": "AMD",
+      "name": "AMD",
       "cap": "Mid/Large",
-      "premarketMove": "-6.43%",
-      "probabilityScore": 83,
+      "premarketMove": "-7.02%",
+      "probabilityScore": 82,
       "conviction": "High",
       "catalyst": "Selected from broad premarket/news/volume screen.",
       "analyst": "Analyst signal unavailable; news proxy used.",
@@ -75,11 +75,11 @@
     {
       "side": "downside",
       "rank": 1,
-      "ticker": "SMCI",
-      "name": "SMCI",
+      "ticker": "AVGO",
+      "name": "AVGO",
       "cap": "Mid/Large",
-      "premarketMove": "-12.40%",
-      "probabilityScore": 84,
+      "premarketMove": "-15.33%",
+      "probabilityScore": 83,
       "conviction": "High",
       "catalyst": "Selected from broad premarket/news/volume screen.",
       "analyst": "Analyst signal unavailable; news proxy used.",
@@ -92,11 +92,11 @@
     {
       "side": "downside",
       "rank": 2,
-      "ticker": "NOW",
-      "name": "NOW",
+      "ticker": "PARA",
+      "name": "PARA",
       "cap": "Mid/Large",
-      "premarketMove": "-7.62%",
-      "probabilityScore": 84,
+      "premarketMove": "-5.87%",
+      "probabilityScore": 83,
       "conviction": "High",
       "catalyst": "Selected from broad premarket/news/volume screen.",
       "analyst": "Analyst signal unavailable; news proxy used.",
@@ -109,11 +109,11 @@
     {
       "side": "downside",
       "rank": 3,
-      "ticker": "AVGO",
-      "name": "AVGO",
+      "ticker": "MU",
+      "name": "MU",
       "cap": "Mid/Large",
-      "premarketMove": "-14.72%",
-      "probabilityScore": 84,
+      "premarketMove": "-8.84%",
+      "probabilityScore": 82,
       "conviction": "High",
       "catalyst": "Selected from broad premarket/news/volume screen.",
       "analyst": "Analyst signal unavailable; news proxy used.",
@@ -126,11 +126,11 @@
     {
       "side": "downside",
       "rank": 4,
-      "ticker": "SOFI",
-      "name": "SOFI",
+      "ticker": "AMD",
+      "name": "AMD",
       "cap": "Mid/Large",
-      "premarketMove": "-6.43%",
-      "probabilityScore": 83,
+      "premarketMove": "-7.02%",
+      "probabilityScore": 82,
       "conviction": "High",
       "catalyst": "Selected from broad premarket/news/volume screen.",
       "analyst": "Analyst signal unavailable; news proxy used.",
@@ -141,5 +141,69 @@
       "risk": "Short-covering or positive headline."
     }
   ],
-  "history": []
+  "history": [
+    {
+      "date": "Thursday 04 June 2026",
+      "dateISO": "2026-06-04",
+      "label": "Previous trading day",
+      "picks": [
+        {
+          "ticker": "SMCI",
+          "side": "upside",
+          "probabilityScore": 84,
+          "regularOpenPrice": 45.25,
+          "regularClosePrice": 45.73
+        },
+        {
+          "ticker": "NOW",
+          "side": "upside",
+          "probabilityScore": 84,
+          "regularOpenPrice": 122.2,
+          "regularClosePrice": 123.47
+        },
+        {
+          "ticker": "AVGO",
+          "side": "upside",
+          "probabilityScore": 84,
+          "regularOpenPrice": 409.09,
+          "regularClosePrice": 404.81
+        },
+        {
+          "ticker": "SOFI",
+          "side": "upside",
+          "probabilityScore": 83,
+          "regularOpenPrice": 16.68,
+          "regularClosePrice": 17.08
+        },
+        {
+          "ticker": "SMCI",
+          "side": "downside",
+          "probabilityScore": 84,
+          "regularOpenPrice": 45.25,
+          "regularClosePrice": 45.73
+        },
+        {
+          "ticker": "NOW",
+          "side": "downside",
+          "probabilityScore": 84,
+          "regularOpenPrice": 122.2,
+          "regularClosePrice": 123.47
+        },
+        {
+          "ticker": "AVGO",
+          "side": "downside",
+          "probabilityScore": 84,
+          "regularOpenPrice": 409.09,
+          "regularClosePrice": 404.81
+        },
+        {
+          "ticker": "SOFI",
+          "side": "downside",
+          "probabilityScore": 83,
+          "regularOpenPrice": 16.68,
+          "regularClosePrice": 17.08
+        }
+      ]
+    }
+  ]
 }
