@@ -21,14 +21,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install requests openai
+      - run: pip install requests openai beautifulsoup4
 
       - run: python generate_report.py
         env:
           ALPACA_KEY: ${{ secrets.ALPACA_KEY }}
           ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
 
       - run: |
           git config user.name "stock-report-bot"
